@@ -20,6 +20,7 @@ def get_requirements(file_path: str) -> List[str]:
 
     return requirements
 
+#This is comment
 
 setup(
     name='mlproject',
@@ -28,5 +29,4 @@ setup(
     author_email='naveen4409@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
-
 )
