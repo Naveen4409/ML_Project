@@ -21,6 +21,7 @@ def get_requirements(file_path: str) -> List[str]:
     return requirements
 
 #This is comment
+#This is another comment
 
 setup(
     name='mlproject',
